@@ -43,7 +43,7 @@
 
 .search__box{
     display: flex;
-    margin: 16px 24px;
+    margin: 16px 24px 32px;
     border-radius: 10px;
     gap: 16px;
 }
@@ -52,14 +52,15 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    border: 2px solid red;
+    border: 1px solid var(--color-3);
+    background-color: transparent;
     flex: 1;
+    border-radius: 10px;
 }
 
 .row button{
-    position: relative;
     background: transparent;
-    left: 16px;
+    padding-left: 16px;
     border: 0;
     outline: 0;
 }
@@ -71,9 +72,11 @@ input {
     border: 0;
     outline: 0;
     font-size: 1rem;
+    background-color: transparent;
+}
+input::placeholder{
     color: var(--color-3);
 }
-
 .search__box img{
     stroke: var(--color-3);
 }
@@ -86,9 +89,22 @@ input {
 .boton__filtro {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--color-5);
     padding: 12px; 
     border-radius: 10px; 
     border: none;
+
+}
+
+.boton__filtro button{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.boton__filtro button img{
+    width: 20px;
+    height: 20px;
 }
 
