@@ -21,7 +21,7 @@
     <main>
         <nav class="search__box">
             <div class="row">
-                <button>
+                <button type="submit">
                     <img src="/storage/img/search.png" alt="">
                 </button>
                 <input type="text" class="search__bar"
@@ -35,27 +35,34 @@
         </nav>
             <div class="carousel__container">
                 <div class="carousel">
-                    <button class="category active" data-category="all">
+                    <input type="radio" id="all" name="category" checked>
+                    <label for="all" class="category">
                         <img src="/storage/img/all-items-colored.png" class="icon" alt="All Items">
                         <span>All Items</span>
-                    </button>
-                    <button class="category" data-category="dress">
+                    </label>
+                
+                    <input type="radio" id="dress" name="category">
+                    <label for="dress" class="category">
                         <img src="/storage/img/black-dress.png" class="icon" alt="Dress">
                         <span>Dress</span>
-                    </button>
-                    <button class="category" data-category="tshirt">
+                    </label>
+                
+                    <input type="radio" id="tshirt" name="category">
+                    <label for="tshirt" class="category">
                         <img src="/storage/img/black-shirt.png" class="icon" alt="T-Shirt">
                         <span>T-Shirt</span>
-                    </button>
-                    <button class="category" data-category="pants">
+                    </label>
+                
+                    <input type="radio" id="pants" name="category">
+                    <label for="pants" class="category">
                         <img src="/storage/img/black-jeans.png" class="icon" alt="Pants">
                         <span>Pants</span>
-                    </button>
+                    </label>
                 </div>
             </div>
             <section class="list__products">
                 <article class="product_1">
-                    <img src="/" alt="">
+                    <img src="/storage/img/" alt="">
                     <img src="/storage/img/Product-1.png" alt="">
                     <div class="information__product">
                         <div class="title">

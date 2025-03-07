@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    border: 1px solid var(--color-3);
+    border: 1px solid var(--color-4);
     background-color: transparent;
     flex: 1;
     border-radius: 10px;
@@ -108,3 +108,52 @@ input::placeholder{
     height: 20px;
 }
 
+.carousel__container{
+    margin: 0 24px;
+    
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 16px;
+}
+.carousel img{
+    width: 24px;
+    height: 24px;
+}
+
+.carousel input {
+    display: none;
+}
+
+.carousel label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border: 1px solid var(--color-4);
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.carousel input:checked + label {
+    background-color: var(--color-5);
+    color: white;
+    border-color: var(--color-5);
+}
+
+.products:has(#dress:checked) .product:not([data-category="dress"]),
+.products:has(#tshirt:checked) .product:not([data-category="tshirt"]),
+.products:has(#pants:checked) .product:not([data-category="pants"]),
+.products:has(#all:checked) .product {
+    display: none;
+}
+
+.products:has(#all:checked) .product {
+    display: block;
+}
