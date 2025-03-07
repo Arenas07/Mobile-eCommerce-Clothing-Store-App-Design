@@ -40,3 +40,55 @@
     max-width: 32px;
     max-height: 32px;
 }
+
+.search__box{
+    display: flex;
+    margin: 16px 24px;
+    border-radius: 10px;
+    gap: 16px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid red;
+    flex: 1;
+}
+
+.row button{
+    position: relative;
+    background: transparent;
+    left: 16px;
+    border: 0;
+    outline: 0;
+}
+
+input {
+    font-family: "EncodeSans-Regular";
+    width: 83%;
+    max-height: 2.5rem;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    color: var(--color-3);
+}
+
+.search__box img{
+    stroke: var(--color-3);
+}
+
+.results {
+    max-height: 20rem;
+    overflow-y: auto;
+}
+
+.boton__filtro {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-5);
+    padding: 12px; 
+    border-radius: 10px; 
+    border: none;
+}
+
