@@ -1,0 +1,42 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header__information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 24px 0;
+}
+
+.welcome__message{
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.welcome__message p{
+    width: 100%;
+    color: var(--color-1);
+    font-size: 12px;
+    font-family: "EncodeSans-Regular";
+}
+
+.welcome__message h2{
+    font-size: 16px;
+    width: 100%;
+    color: var(--color-2);
+    font-family: "EncodeSans-Bold";
+}
+
+.profile__picture img{
+    max-width: 32px;
+    max-height: 32px;
+}
