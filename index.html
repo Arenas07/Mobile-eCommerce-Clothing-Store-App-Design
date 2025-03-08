@@ -19,9 +19,9 @@
         </section>
     </header>
     <main>
-        <nav class="search__box">
+        <form class="search__box">
             <div class="row">
-                <button type="submit">
+                <button type="reset">
                     <img src="/storage/img/search.png" alt="">
                 </button>
                 <input type="text" class="search__bar"
@@ -32,30 +32,30 @@
                 <button> <img src="/storage/img/settings.png" alt=""></button>              
             </div>
             <script src="main.js"></script>
-        </nav>
+        </form>
             <div class="carousel__container">
                 <div class="carousel">
                     <input type="radio" id="all" name="category" checked>
-                    <label for="all" class="category">
-                        <img src="/storage/img/all-items-colored.png" class="icon" alt="All Items">
+                    <label for="all" class="category" data-img="storage">
+                        <span class="icon"></span>
                         <span>All Items</span>
                     </label>
                 
                     <input type="radio" id="dress" name="category">
-                    <label for="dress" class="category">
-                        <img src="/storage/img/black-dress.png" class="icon" alt="Dress">
+                    <label for="dress" class="category" data-img="/storage/img/black-dress.png">
+                        <span class="icon"></span>
                         <span>Dress</span>
                     </label>
                 
                     <input type="radio" id="tshirt" name="category">
-                    <label for="tshirt" class="category">
-                        <img src="/storage/img/black-shirt.png" class="icon" alt="T-Shirt">
+                    <label for="tshirt" class="category" data-img="/storage/img/black-shirt.png">
+                        <span class="icon"></span>
                         <span>T-Shirt</span>
                     </label>
                 
                     <input type="radio" id="pants" name="category">
-                    <label for="pants" class="category">
-                        <img src="/storage/img/black-jeans.png" class="icon" alt="Pants">
+                    <label for="pants" class="category" data-img="/storage/img/black-jeans.png">
+                        <span class="icon"></span>
                         <span>Pants</span>
                     </label>
                 </div>
