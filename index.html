@@ -7,6 +7,154 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <section class="header__information">
+            <div class="welcome__message">
+                <p>Hello, Welcome 👋</p>
+                <h2>Albert Stevano</h2>
+            </div>
+            <div class="profile__picture">
+                <img src="/storage/img/Profile.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main>
+        <form class="search__box">
+            <div class="row">
+                <button type="reset">
+                    <img src="/storage/img/search.png" alt="">
+                </button>
+                <input type="text" class="search__bar"
+                placeholder="Search clothes. . .">
+                <div class="results"></div>
+            </div>
+            <div class="boton__filtro">
+                <button> <img src="/storage/img/settings.png" alt=""></button>              
+            </div>
+            <script src="main.js"></script>
+        </form>
+            <div class="carousel__container">
+                <div class="carousel">
+                    <input type="radio" id="all" name="category" checked>
+                    <label for="all" class="category" data-img="storage">
+                        <span class="icon"></span>
+                        <span>All Items</span>
+                    </label>
+                
+                    <input type="radio" id="dress" name="category">
+                    <label for="dress" class="category" data-img="/storage/img/black-dress.png">
+                        <span class="icon"></span>
+                        <span>Dress</span>
+                    </label>
+                
+                    <input type="radio" id="tshirt" name="category">
+                    <label for="tshirt" class="category" data-img="/storage/img/black-shirt.png">
+                        <span class="icon"></span>
+                        <span>T-Shirt</span>
+                    </label>
+                
+                    <input type="radio" id="pants" name="category">
+                    <label for="pants" class="category" data-img="/storage/img/black-jeans.png">
+                        <span class="icon"></span>
+                        <span>Pants</span>
+                    </label>
+                </div>
+            </div>
+            <section class="list__products">
+                <article class="product_1">
+                    <button><img src="/storage/img/heart-uncolored.png" alt=""> </button>
+                    <a href="#"><img src="/storage/img/Product-1.png" alt=""></a>
+                    <div class="information__product">
+                        <div class="title">
+                            <a href="#"><h2>Modern Light Clothes</h2></a>
+                            <p>T-Shirt</p>
+                        </div>
+                        <div class="general__information">
+                            <h3>$212.99</h3>
+                            <div class="rating">
+                                <img src="/storage/img/rate-star.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </article>
+                <article class="product_2">
+                    <button><img src="/storage/img/heart-colored.png" alt=""> </button>
+                    <a href="#"><img src="/storage/img/Product-2.png" alt=""></a>
+                    <div class="information__product">
+                        <div class="title">
+                            <a href="#"><h2>Light Dress Bless</h2></a>
+                            <p>Dress modern</p>
+                        </div>
+                        <div class="general__information">
+                            <h3>$162.99</h3>
+                            <div class="rating">
+                                <img src="/storage/img/rate-star.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </article>
+                <article class="product_3">
+                    <button><img src="/storage/img/heart-uncolored.png" alt=""> </button>
+                    <a href="#">
+                        <img src="/storage/img/Product-3.png" alt="">
+                    </a>
+                    <div class="information__product">
+                        <div class="title">
+                            <a href="#"><h2>Maroon Dark Top</h2></a>
+                            <p>Dress</p>
+                        </div>
+                        <div class="general__information">
+                            <h3>$194.99</h3>
+                            <div class="rating">
+                                <img src="/storage/img/rate-star.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </article>
+
+                <article class="product_4">
+                    <button><img src="/storage/img/heart-uncolored.png" alt=""> </button>
+                    <a href="#"><img src="/storage/img/Product-4.png" alt=""></a>
+                    <div class="information__product">
+                        <div class="title">
+                            <a href="#"><h2>Light Dress Yellow</h2></a>
+                            <p>Dress Modern</p>
+                        </div>
+                        <div class="general__information">
+                            <h3>$122.99</h3>
+                            <div class="rating">
+                                <img src="/storage/img/rate-star.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </article>
+            </section>
+    </main>
+    <footer>
+        <div class="navigation">
+            <div class="selected">
+                <a href="#"><img src="/storage/img/home.png" alt=""></a>
+                <img src="/storage/img/Dot.png" alt="" class="absolute">
+            </div>
+            <div class="shopping">
+                <a href="#"><img src="/storage/img/shopping-bag.png" alt=""></a>
+                <img src="/storage/img/Dot-red.png" alt="" class="absolute_2">
+            </div>
+            <div class="favorites">
+                <a href="#"><img src="/storage/img/heart-uncolored.png" alt=""></a>
+            </div>
+            <div class="profile">
+                <a href="#"><img src="/storage/img/profile-user.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
