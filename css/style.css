@@ -176,3 +176,130 @@ input::placeholder{
 #dress:checked + label .icon { background-image: url("/storage/img/white-dress.png");  }
 #tshirt:checked + label .icon { background-image: url("/storage/img/white-shirt.png");}
 #pants:checked + label .icon { background-image: url("/storage/img/white-jeans.png"); }
+
+.list__products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px;
+    gap: 24px 17px;
+    justify-content: space-between; 
+}
+
+.product_1{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    max-width: 155px;
+    max-height: fit-content;
+    position: relative;
+}
+
+.product_1 img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.product_2{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    max-width: 155px;
+    position: relative;
+}
+
+.product_2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.information__product{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 12px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.title a{
+    color: var(--color-2);
+    font-size: 14px;
+    text-decoration: none;
+    width: 100%;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.title h2{
+    color: var(--color-2);
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    text-decoration: none;
+    width: 100%;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.title p{
+    color: var(--color-1);
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+}
+
+.general__information{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.general__information h3{
+    color: var(--color-5);
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.rating p{
+    color: var(--color-5);
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+}
+.product_3{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    max-width: 155px;
+    position: relative;
+    max-height: fit-content;
+}
+
+.product_3 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product_4{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    max-width: 155px;
+    max-height: fit-content;
+    position: relative;
+}
+
+.product_4 img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
