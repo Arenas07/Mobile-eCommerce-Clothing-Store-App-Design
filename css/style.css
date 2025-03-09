@@ -199,7 +199,25 @@ input::placeholder{
     border-radius: 15px;
     
 }
+.product_1 button {
+    background-color: transparent;
+    padding: 0; 
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 14px;
+    right: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
 
+.product_1 button img{
+    background-color: var(--color-5);
+    padding: 4px;
+}
 .product_2{
     display: flex;
     flex-direction: column;
@@ -211,6 +229,25 @@ input::placeholder{
 .product_2 img{
     width: 100%;
     border-radius: 15px;
+}
+.product_2 button {
+    background-color: transparent;
+    padding: 0; 
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 14px;
+    right: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.product_2 button img{
+    background-color: var(--color-5);
+    padding: 4px;
 }
 
 .information__product{
@@ -283,6 +320,25 @@ input::placeholder{
     position: relative;
     max-height: fit-content;
 }
+.product_3 button {
+    background-color: transparent;
+    padding: 0; 
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 14px;
+    right: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.product_3 button img{
+    background-color: var(--color-5);
+    padding: 4px;
+}
 
 .product_3 img{
     width: 100%;
@@ -303,7 +359,25 @@ input::placeholder{
     border-radius: 15px;
     
 }
+.product_4 button {
+    background-color: transparent;
+    padding: 0; 
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 14px;
+    right: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
 
+.product_4 button img{
+    background-color: var(--color-5);
+    padding: 4px;
+}
 /*************FOOTER**************/
 
 footer{
