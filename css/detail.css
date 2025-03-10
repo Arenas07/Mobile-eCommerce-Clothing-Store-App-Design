@@ -285,3 +285,48 @@ label{
     flex-direction: column;
     gap: 8px;
 }
+
+/****************FOOTER***************/
+
+footer{
+    margin: 24px;
+    background-color: var(--color-5);
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.price img{
+    width: 24px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    text-decoration: none;
+}
+
+.price b{
+    font-family: "EncodeSans-Bold";
+    font-size: 14px;
+    color: var(--color-6);
+    text-decoration: none;
+}
+
+.price p{
+    text-decoration: none;
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    color: var(--color-6);
+    text-decoration: line-through;
+}
+
+.price a{
+    text-decoration: none;
+}
+
+.info__footer{
+    text-decoration: none;
+}
