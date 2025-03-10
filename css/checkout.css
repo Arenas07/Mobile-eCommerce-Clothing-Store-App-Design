@@ -52,3 +52,61 @@ header a{
     justify-content: center;
     
 }
+
+/*************MAIN**************/
+
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product__1 img:nth-child(1){
+    width: 70px;
+    height: 70px;
+    border-radius: 15%;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+}
+
+.info__text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.info__quantity{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: stretch;
+}
+
+.info__quantity img{
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.quantity_p{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
