@@ -235,15 +235,15 @@ label{
 }
 
 #color1 + .color-btn {
-    background-color: grey;
+    background-color: var(--color-1);
 }
 
 #color2 + .color-btn {
-    background-color: #4a4a4a;
+    background-color: #433F40;
 }
 
 #color3 + .color-btn {
-    background-color: black;
+    background-color: var(--color-2);
 }
 
 
