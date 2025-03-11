@@ -381,12 +381,13 @@ input::placeholder{
 /*************FOOTER**************/
 
 footer{
-    margin: 40px 16px 22px;
+    margin: 40px 16px 30px;
     background-color: var(--color-5);
     z-index: 10;
     position: sticky;
     bottom: 15px;
     left: 0;
+    bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
