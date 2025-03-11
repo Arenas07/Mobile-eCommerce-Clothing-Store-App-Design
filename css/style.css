@@ -316,7 +316,6 @@ input::placeholder{
     font-size: 12px;
 }
 .product_3{
-    margin-top: -35px;
     display: flex;
     flex-direction: column;
     width: 46.7%;
