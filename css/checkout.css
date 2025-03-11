@@ -66,6 +66,8 @@ header a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+    gap: 14px;
 }
 
 .product__1 > img{
@@ -74,6 +76,7 @@ header a{
     border-radius: 20%;
     align-self: flex-end;
     justify-self: center;
+    object-fit: inherit;
 }
 
 .information{
@@ -81,6 +84,7 @@ header a{
     flex-direction: row;
     justify-content: space-between;
     gap: 28px;
+    width: 85%;
 }
 
 .info__text{
@@ -151,7 +155,7 @@ header a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    gap: 14px;
 }
 
 .product__2 > img{
@@ -160,6 +164,7 @@ header a{
     border-radius: 20%;
     align-self: flex-end;
     justify-self: center;
+    object-fit: cover;
 }
 
 .dots{
@@ -271,6 +276,7 @@ header a{
     flex-direction: column;
     gap: 24px;
     margin-top: 16px;
+    width: 100%;
 }
 
 .sub__total{
@@ -290,4 +296,23 @@ header a{
     font-family: "EncodeSans-SemiBold";
     color: var(--color-11);
     font-size: 14px;
+}
+
+/**************FOOTER****************/
+
+footer{
+    display: flex;
+    margin: 44px 24px 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-5);
+    padding: 22px 0;
+    border-radius: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: "EncodeSans-Bold";
+    font-size: 14px;
+    color: var(--color-6);
 }
