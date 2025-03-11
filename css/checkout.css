@@ -11,7 +11,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 24px;
 }
 
@@ -166,4 +166,128 @@ header a{
     width: 22px !important;
     height: 7px !important;
     transform: translate(-3px, 5px);
+}
+
+.payment{
+    margin: 30px 24px 0;
+}
+.payment__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment__container h2{
+    display: flex;
+    align-self: flex-start;
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    color: var(--color-2);
+}
+
+.debit__card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background-color: #F2F2F2;
+    width: 100%;
+    margin: 16px 24px;
+    border-radius: 10px;
+}
+
+.debit__card img{
+    width: 24px;
+    height: 24px;
+}
+
+.first__part{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.first__part img{
+    width: 45px;
+    height: 30px;
+}
+
+.first__part p{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    color: var(--color-5);
+}
+
+.first__part em{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    font-style: normal;
+    color: var(--color-5);
+}
+
+.total__items{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.total__items p{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    color: var(--color-5);
+}
+
+.total__items b{
+    font-family: "EncodeSans-SemiBold";
+    color: var(--color-11);
+    font-size: 14px;
+}
+
+.first__paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second__paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.third__paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total__payment{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.sub__total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sub__total p{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    color: var(--color-5);
+}
+
+.sub__total b{
+    font-family: "EncodeSans-SemiBold";
+    color: var(--color-11);
+    font-size: 14px;
 }
