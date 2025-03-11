@@ -1,0 +1,318 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 24px;
+}
+
+header img:nth-child(1){
+    width: 24px;
+}
+header button img {
+    width: 10px; 
+    height: 14px;
+}
+header h1{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 16px;
+    color: var(--color-2);
+}
+
+header button{
+    border: 1px solid var(--color-4);
+    outline: none;
+    padding: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+header a{
+    padding: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*************MAIN**************/
+
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 24px;
+}
+
+.product__1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 14px;
+}
+
+.product__1 > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    align-self: flex-end;
+    justify-self: center;
+    object-fit: inherit;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 28px;
+    width: 85%;
+}
+
+.info__text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.top h2{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+}
+
+.top p{
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+}
+
+.bottom b{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+}
+.info__quantity{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.quantity_p{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity_p p{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+}
+
+.quantity_p button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: 1px solid var(--color-4);
+    border-radius: 50%;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+}
+
+
+.quantity_p button img{
+    width: 16px;
+    align-self: center;
+    height: 16px;
+}
+.product__2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.product__2 > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    align-self: flex-end;
+    justify-self: center;
+    object-fit: cover;
+}
+
+.dots{
+    width: 22px !important;
+    height: 7px !important;
+    transform: translate(-3px, 5px);
+}
+
+.payment{
+    margin: 30px 24px 0;
+}
+.payment__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment__container h2{
+    display: flex;
+    align-self: flex-start;
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    color: var(--color-2);
+}
+
+.debit__card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background-color: #F2F2F2;
+    width: 100%;
+    margin: 16px 24px;
+    border-radius: 10px;
+}
+
+.debit__card img{
+    width: 24px;
+    height: 24px;
+}
+
+.first__part{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.first__part img{
+    width: 45px;
+    height: 30px;
+}
+
+.first__part p{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    color: var(--color-5);
+}
+
+.first__part em{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    font-style: normal;
+    color: var(--color-5);
+}
+
+.total__items{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.total__items p{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    color: var(--color-5);
+}
+
+.total__items b{
+    font-family: "EncodeSans-SemiBold";
+    color: var(--color-11);
+    font-size: 14px;
+}
+
+.first__paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second__paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.third__paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total__payment{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.sub__total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sub__total p{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    color: var(--color-5);
+}
+
+.sub__total b{
+    font-family: "EncodeSans-SemiBold";
+    color: var(--color-11);
+    font-size: 14px;
+}
+
+/**************FOOTER****************/
+
+footer{
+    display: flex;
+    margin: 44px 24px 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-5);
+    padding: 22px 0;
+    border-radius: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: "EncodeSans-Bold";
+    font-size: 14px;
+    color: var(--color-6);
+}
