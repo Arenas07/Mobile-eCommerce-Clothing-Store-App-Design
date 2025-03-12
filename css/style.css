@@ -169,16 +169,16 @@ input::placeholder{
     text-wrap: nowrap;
 }
 
-#all + label .icon { background-image: url("/storage/img/all-items.png"); }
-#dress + label .icon { background-image: url("/storage/img/black-dress.png");}
-#tshirt + label .icon { background-image: url("/storage/img/tshirt.png");}
-#pants + label .icon { background-image: url("/storage/img/black-jeans.png"); }
+#all + label .icon { background-image: url("../storage/img/all-items.png"); }
+#dress + label .icon { background-image: url("../storage/img/black-dress.png");}
+#tshirt + label .icon { background-image: url("../storage/img/tshirt.png");}
+#pants + label .icon { background-image: url("../storage/img/black-jeans.png"); }
 
 
-#all:checked + label .icon { background-image: url("/storage/img/all-items-colored.png"); }
-#dress:checked + label .icon { background-image: url("/storage/img/white-dress.png");  }
-#tshirt:checked + label .icon { background-image: url("/storage/img/white-shirt.png");}
-#pants:checked + label .icon { background-image: url("/storage/img/white-jeans.png"); }
+#all:checked + label .icon { background-image: url("../storage/img/all-items-colored.png"); }
+#dress:checked + label .icon { background-image: url("../storage/img/white-dress.png");  }
+#tshirt:checked + label .icon { background-image: url("../storage/img/white-shirt.png");}
+#pants:checked + label .icon { background-image: url("../storage/img/white-jeans.png"); }
 
 .list__products{
     display: flex;
